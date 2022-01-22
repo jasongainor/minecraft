@@ -275,9 +275,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2022-01-21 23:06:08 -0600"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_ethereal": {
     "criteria": {
       "entered_water": "2022-01-16 23:17:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-01-22 00:08:21 -0600"
     },
     "done": true
   },
@@ -309,13 +321,20 @@
     "criteria": {
       "cooked_mutton": "2022-01-16 23:45:45 -0600",
       "cooked_beef": "2022-01-16 23:01:43 -0600",
-      "apple": "2022-01-16 22:52:41 -0600"
+      "apple": "2022-01-16 22:52:41 -0600",
+      "bread": "2022-01-21 22:57:10 -0600"
     },
     "done": false
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2022-01-16 22:51:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2022-01-21 22:56:48 -0600"
     },
     "done": true
   },
@@ -551,7 +570,11 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
-      "corrupted_sands": "2022-01-18 22:32:01 -0600"
+      "phantasmagoric_inferno": "2022-01-22 00:01:31 -0600",
+      "visceral_heap": "2022-01-22 00:01:56 -0600",
+      "corrupted_sands": "2022-01-18 22:32:01 -0600",
+      "fungi_forest": "2022-01-21 23:59:00 -0600",
+      "undergarden": "2022-01-22 00:01:27 -0600"
     },
     "done": false
   },
@@ -564,6 +587,18 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2022-01-16 23:21:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2022-01-22 00:00:26 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2022-01-21 23:06:08 -0600"
     },
     "done": true
   },
@@ -681,6 +716,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2022-01-21 23:11:31 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "entered_water": "2022-01-16 23:17:23 -0600"
@@ -792,11 +833,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "zombie_villager": "2022-01-16 23:25:13 -0600",
+      "magma_cube": "2022-01-22 00:04:44 -0600",
       "skeleton": "2022-01-16 22:52:54 -0600",
+      "blaze": "2022-01-22 00:02:37 -0600",
       "zombie": "2022-01-16 22:51:56 -0600",
       "cave_spider": "2022-01-17 22:33:49 -0600",
       "witch": "2022-01-17 22:34:03 -0600",
       "spider": "2022-01-16 22:52:10 -0600",
+      "ghast": "2022-01-22 00:00:26 -0600",
       "creeper": "2022-01-16 23:24:21 -0600",
       "enderman": "2022-01-16 23:24:45 -0600"
     },
@@ -808,9 +852,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/ender_eye": {
+  "railcraft:tracks/regular_track": {
     "criteria": {
-      "has_blaze_powder": "2022-01-18 22:34:31 -0600"
+      "iron": "2022-01-18 21:51:32 -0600"
     },
     "done": true
   },
@@ -820,9 +864,9 @@
     },
     "done": true
   },
-  "railcraft:tracks/regular_track": {
+  "minecraft:recipes/misc/ender_eye": {
     "criteria": {
-      "iron": "2022-01-18 21:51:32 -0600"
+      "has_blaze_powder": "2022-01-18 22:34:31 -0600"
     },
     "done": true
   },
@@ -889,6 +933,12 @@
   "biomesoplenty:recipes/transportation/boat_magic": {
     "criteria": {
       "entered_water": "2022-01-16 23:17:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_gold_nugget": "2022-01-21 22:56:48 -0600"
     },
     "done": true
   },
@@ -988,6 +1038,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2022-01-22 00:02:49 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2022-01-17 23:19:18 -0600"
@@ -1060,6 +1116,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2022-01-22 00:02:04 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_at_least_9_iron_ingot": "2022-01-16 23:44:15 -0600"
@@ -1108,6 +1170,12 @@
     },
     "done": true
   },
+  "biomesoplenty:biomesoplenty/terrestrial_artifact": {
+    "criteria": {
+      "emerald": "2022-01-21 23:41:27 -0600"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_flint": "2022-01-17 00:02:58 -0600"
@@ -1129,6 +1197,12 @@
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2022-01-16 23:43:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2022-01-21 23:47:53 -0600"
     },
     "done": true
   },
@@ -1337,9 +1411,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2022-01-21 23:41:08 -0600"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2022-01-17 23:13:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma": {
+    "criteria": {
+      "has_magma_cream": "2022-01-22 00:03:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2022-01-22 00:02:49 -0600"
     },
     "done": true
   },
@@ -1409,6 +1501,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2022-01-22 00:02:49 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2022-01-16 23:34:13 -0600"
@@ -1433,12 +1531,20 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2022-01-21 23:11:31 -0600"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2022-01-16 22:55:05 -0600",
       "birch_forest": "2022-01-18 21:34:28 -0600",
+      "swampland": "2022-01-21 23:00:42 -0600",
       "deep_ocean": "2022-01-16 23:48:07 -0600",
       "beaches": "2022-01-16 22:51:50 -0600",
+      "extreme_hills_with_trees": "2022-01-21 23:02:09 -0600",
       "desert_hills": "2022-01-18 21:36:48 -0600",
       "forest_hills": "2022-01-16 22:48:30 -0600",
       "plains": "2022-01-16 22:44:00 -0600",
@@ -1722,6 +1828,12 @@
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_red_flower": "2022-01-17 21:41:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2022-01-21 23:48:03 -0600"
     },
     "done": true
   },
